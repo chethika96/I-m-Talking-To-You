@@ -1,0 +1,64 @@
+"2021-01-31 13:08:07 [main] INFO  c.s.I.ImTalkingToYouApplication - Starting ImTalkingToYouApplication using Java 1.8.0_152 on Vikum with PID 16964 (C:\Users\A C E R\Desktop\Chethika\ImTalkingToYou\target\classes started by A C E R in C:\Users\A C E R\Desktop\Chethika\ImTalkingToYou)
+""2021-01-31 13:08:07 [main] INFO  c.s.I.ImTalkingToYouApplication - No active profile set, falling back to default profiles: default
+""2021-01-31 13:08:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2021-01-31 13:08:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+""2021-01-31 13:08:10 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7c36db44' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-31 13:08:10 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-31 13:08:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-01-31 13:08:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-01-31 13:08:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2021-01-31 13:08:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-01-31 13:08:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3013 ms
+""2021-01-31 13:08:11 [main] ERROR com.zaxxer.hikari.HikariConfig - Failed to load driver class com.microsoft.sqlserver.jdbc.SQLServerDriver from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+""2021-01-31 13:08:11 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource
+""2021-01-31 13:08:11 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2021-01-31 13:08:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2021-01-31 13:08:11 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driver-class-name
+    Value: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class com.microsoft.sqlserver.jdbc.SQLServerDriver in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+""2021-01-31 13:12:46 [main] INFO  c.s.I.ImTalkingToYouApplication - Starting ImTalkingToYouApplication using Java 1.8.0_152 on Vikum with PID 18456 (C:\Users\A C E R\Desktop\Chethika\ImTalkingToYou\target\classes started by A C E R in C:\Users\A C E R\Desktop\Chethika\ImTalkingToYou)
+""2021-01-31 13:12:46 [main] INFO  c.s.I.ImTalkingToYouApplication - No active profile set, falling back to default profiles: default
+""2021-01-31 13:12:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2021-01-31 13:12:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interfaces.
+""2021-01-31 13:12:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4642b71d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-31 13:12:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-01-31 13:12:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2021-01-31 13:12:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-01-31 13:12:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2021-01-31 13:12:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-01-31 13:12:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2746 ms
+""2021-01-31 13:12:49 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2021-01-31 13:12:49 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-01-31 13:12:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-01-31 13:12:49 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+""2021-01-31 13:12:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cd164a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@55d9b8f0, org.springframework.security.web.header.HeaderWriterFilter@7173ae5b, org.springframework.security.web.authentication.logout.LogoutFilter@10f19647, com.sentura.ImTalkingToYou.Configuration.JwtRequestFilter@6a9950f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43d38654, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29eda4f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@242a209e, org.springframework.security.web.session.SessionManagementFilter@1290c49, org.springframework.security.web.access.ExceptionTranslationFilter@5853495b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@282ffbf5]
+""2021-01-31 13:12:50 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-01-31 13:12:51 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2021-01-31 13:12:51 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2021-01-31 13:12:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-01-31 13:12:51 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+""2021-01-31 13:12:53 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2021-01-31 13:12:53 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+""2021-01-31 13:13:02 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-01-31 13:13:02 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-01-31 13:13:03 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+""2021-01-31 13:13:03 [main] INFO  c.s.I.ImTalkingToYouApplication - Started ImTalkingToYouApplication in 18.077 seconds (JVM running for 21.026)
+"
